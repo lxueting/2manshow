@@ -1,0 +1,242 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  background-color: lightblue;
+  font-family: "Lato", sans-serif;
+  color: black;
+  align-items: center;
+  justify-content: center;
+}
+
+#card {
+  background-color: white;
+  height: auto;
+  width: 350px;
+  margin: 10vh auto;
+  border-radius: 25px;
+  padding-bottom: 1px;
+  box-shadow: 2px 2px 5px grey;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  border-radius: 25px 25px 0 0;
+  color: black;
+  padding: 25px 0;
+  font-weight: 800;
+  margin: 0;
+}
+
+h3 {
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  border-radius: 25px 25px 0 0;
+  color: black;
+  padding: 2px 0;
+  font-weight: 550;
+  margin: 0;
+}
+
+h4 {
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 10px;
+  margin: 40px 0 10px;
+}
+
+h5 {
+  border-bottom: 1px;
+  padding-bottom: 10px;
+  margin: 40px 0 10px;
+}
+
+#performance {
+  color: green;
+}
+
+.image-crop {
+  display: block;
+  position: relative;
+  background-color: #e6ebee;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  margin-top: 30px;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px #4069e2;
+}
+
+#avatar {
+  display: inline;
+  height: 230px;
+  width: auto;
+  margin-left: -34px;
+}
+
+#bio {
+  display: block;
+  margin: 30px auto;
+  width: 280px;
+  height: auto;
+}
+
+#bio p {
+  color: black;
+  font-weight: lighter;
+  font-size: 15px;
+  text-align: justify;
+}
+
+#stats {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 280px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  font-weight: 500;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+.stat {
+  font-size: 25px;
+  margin: 0;
+}
+
+.label {
+  margin: 0;
+}
+
+#buttons {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 280px;
+}
+
+button {
+  display: block;
+  position: relative;
+  padding: 10px 0;
+  width: 130px;
+  margin: 3px 0;
+  border-radius: 25px;
+  border: none;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  background-color: #e6ebee;
+  color: #393b45;
+}
+
+button:focus {
+  display: none;
+}
+
+button:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+/* 
+#msg {
+
+  background-color: #4069e2;
+  color: #e6ebee;
+} */
+
+#followingcount {
+  display: block;
+  position: relative;
+  padding: 10px 0;
+  width: 130px;
+  margin: 30px 0;
+  border-radius: 25px;
+  border: none;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  background-color: white;
+  color: black;
+}
+#followerscount {
+  display: block;
+  position: relative;
+  padding: 2px 0;
+  width: 130px;
+  margin: 30px 0;
+  border-radius: 25px;
+  border: none;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  background-color: white;
+  color: black;
+}
+
+table.greyGridTable {
+  width: 100%;
+  height: 200%;
+  border: solid white;
+  padding: 0px 0;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.greyGridTable td,
+table.greyGridTable th {
+  border: 1px solid #ffffff;
+  padding: 5px 5px;
+}
+table.greyGridTable tbody td {
+  font-size: 14px;
+}
+table.greyGridTable tr:nth-child(even) {
+  background: #ffffff;
+}
+table.greyGridTable thead {
+  background: #ffffff;
+  border-bottom: 1px solid #bbb;
+}
+table.greyGridTable thead th {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+}
+table.greyGridTable tfoot td {
+  font-size: 14px;
+}
+.container {
+  margin: 30 px auto;
+  width: 300px;
+  padding: 20px;
+}
+.inc-exp-container {
+  background-color: #fff;
+  box-shadow: var(--box-shadow);
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.inc-exp-container > div {
+  flex: 1;
+  text-align: center;
+}
