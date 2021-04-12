@@ -233,3 +233,4 @@ function portfoliovalue(){
             document.getElementById('portfoliovalue').innerHTML = tr
         });
     };
+
